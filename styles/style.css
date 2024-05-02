@@ -15,6 +15,10 @@ body {
   font-family: var(--primary-font);
 }
 
+p {
+  font-family: var(--primary-font);
+}
+
 h1,
 h2,
 h3,
@@ -56,4 +60,16 @@ h6 {
 
 .app-link a:hover {
   background-color: var(--secondary-color);
+}
+
+.app-link a {
+  color: #f5f2fe;
+  background-color: var(--secondary-color);
+}
+
+.container h2 {
+  padding: 0;
+  text-align: center;
+  padding: 100px 60px;
+  font-size: 44px;
 }
