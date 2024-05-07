@@ -75,3 +75,23 @@ h6 {
   padding: 100px 60px;
   font-size: 44px;
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .main {
+    padding: 80px 20px;
+  }
+
+  .container {
+    padding: 0;
+    text-align: center;
+  }
+}
